@@ -286,6 +286,73 @@ nav .manu a{
     height: 20px;
 }
 
+#early{
+    width: 1600px;
+    height: 506px;
+    background-color: #FFFFFF;
+    margin: 0px auto;
+}
+
+#early .early-container{
+    background-color: #F7F6F2;
+    width: 1360px;
+    height: 384px;
+    margin: 2px 120px 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#early .early-container .title{
+    width: 1280px;
+    height: 112px;
+    margin: 80px 40px 24px;
+    text-align: center;
+}
+#early .early-container .title h2{
+    color: #001931;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom:16px ;
+}
+
+#early .early-container .title p{
+    color: #627382;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-bottom: 24px;
+}
+#early .early-container .early-button{
+    text-align: center;
+
+}
+
+#early .early-container .early-button .btn{
+    width: 194px;
+    height: 52px;
+    font-size: 16px;
+    display: inline-flex;
+    align-items: center;
+    justify-items: center;
+    border-radius: 4px;
+    margin-bottom: 16px;
+}
+#early .early-container .early-button .btn img{
+    width: 20px;
+    height: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 6px;
+}
+#early .early-container .early-button p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #627382;
+}
+
+
 
 
 
