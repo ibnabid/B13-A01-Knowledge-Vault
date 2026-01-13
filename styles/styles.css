@@ -211,3 +211,82 @@ nav .manu a{
    padding: 0 24px 22px;
     text-align: center;   
 }
+
+#brain{
+    width: 1600px;
+    height: 840;
+    margin: 0px auto;
+    padding: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#brain .brain-container{
+    width: 1360px;
+    height: 600px;
+    margin: 0px auto;
+    display: flex;
+    /* align-items: center; */
+    /* justify-items: center; */
+    gap:60px ;
+}
+
+#brain .brain-container .brain-img img{
+    width: 600px;
+    height: 600px;
+}
+
+#brain .brain-container .section-message{
+    width: 700px;
+    height: 396px;
+    margin-top: 102px;
+    margin-bottom: 102px;
+}
+#brain .brain-container .section-message h4{
+    color:#30b868;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    margin-bottom: 16px;
+}
+#brain .brain-container .section-message h1{
+    color:#001931;
+    font-size: 48px;
+    font-weight:bold;
+    margin-bottom: 16px;
+}
+#brain .brain-container .section-message p{
+    color:#627382;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-bottom: 40px;    
+}
+
+#brain .brain-container .section-message ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+#brain .brain-container .section-message ul li{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    display: flex;
+    align-items: flex-start;
+    gap: 6px;
+    margin-bottom: 16px;
+}
+
+#brain .brain-container .section-message ul li img{
+    width: 20px;
+    height: 20px;
+}
+
+
+
+
+
