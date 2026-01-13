@@ -120,6 +120,94 @@ nav .manu a{
     margin-bottom: 180px;
 }
 
+#note{
+    display: flex;
+    background-color: #FFFFFF;
+}
 
+#note .note-container{
+    width: 1600px;
+    height: 448px;
+     margin: 0 auto;
+    text-align: center;
+}
 
+#note .note-container .section-heading{
+    width: 1360px;
+    height: 152px;
+    text-align: center;
+    align-content: end;
+    justify-content: space-around;
+    /* margin-left:120px ; */
+    margin: 0px auto;
+}
 
+#note .note-container .section-heading h2{
+    color: #001931;
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 16px;
+}
+#note .note-container .section-heading p{
+    color: #627382;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+}
+
+#note .note-info{
+    width: 1360px;
+    height: 300px;
+    margin-left: 120px;
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    
+}
+#note .note-info .info-card{
+    width: 322px;
+    height: 300px;
+    margin-top: 44px ;
+    display: flex;
+    flex-direction: column;
+    gap:16px;
+    align-items: center;
+    box-shadow: 0 6px 50px 0 #2e2d2d27;
+}
+
+#note .note-info .info-card .icon-bg{
+    background-color: #F95555;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+
+}
+#note .note-info .info-card .icon-bg img{
+    width: 32px;
+    height: 32px;
+    object-fit: contain;
+}
+
+#note .note-info .info-card h3{
+    font-size: 24px;
+    font-weight:600 ;
+    color: #001931;
+    margin-left: 24px;
+    margin-right: 24px ;
+    text-align: center;
+}
+
+#note .note-info .info-card p{
+    font-size: 16px;
+    font-weight:400 ;
+    color: #627382;
+   padding: 0 24px 22px;
+    text-align: center;   
+}
