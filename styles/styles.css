@@ -21,6 +21,7 @@
     font-size: 16px;
     font-weight: 600;
     color: #FFFFFF;
+    cursor: pointer;
 
 }
 
@@ -75,8 +76,6 @@ nav .manu a{
     background-color: #FFFFFF;
     border-radius: 1000PX;
     padding: 8px 12px;
-    /* display: inline-flex; */
-    /* align-items: center; */
     margin: 116px 686px 16px;
 }
 
@@ -113,12 +112,29 @@ nav .manu a{
 
 #banner .banner-container .banner-button{
     margin-top: 32px;
-    display: flex;
-    align-items: center;
     gap:16px ;
     margin-left: 568px;
     margin-bottom: 180px;
 }
+#banner .banner-container .banner-button img{
+    width: 20px;
+    height: 20px;
+    margin: 0 auto;
+}
+#banner .banner-container .banner-button .btn {
+    display: inline-flex;              
+    align-items: center;               
+    justify-content: center;           
+    gap: 10px;                        
+    padding: 16px;
+    cursor: pointer;
+}
+
+.banner-container .banner-button .transparent-btn{
+    background: transparent;
+    border: 2px solid #ffffff;
+}
+
 
 #note{
     display: flex;
